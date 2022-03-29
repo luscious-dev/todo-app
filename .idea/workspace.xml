@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7944f4e5-a4ee-454c-b75a-1d67cb77b26d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
+  <component name="ProjectId" id="26pPHf4xB9c1e1CB2J6D2ZHKZ1a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell 5480\PhpstormProjects\todo_list\styles\utility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell 5480\PhpstormProjects\todo_list\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7944f4e5-a4ee-454c-b75a-1d67cb77b26d" name="Default Changelist" comment="" />
+      <created>1648117467473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648117467473</updated>
+      <workItem from="1648117468814" duration="5187000" />
+      <workItem from="1648122739664" duration="618000" />
+      <workItem from="1648320339399" duration="636000" />
+      <workItem from="1648323560581" duration="13438000" />
+      <workItem from="1648412090548" duration="59000" />
+      <workItem from="1648474545315" duration="27793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648484469299">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1648484469299" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1648327166875">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1648327166875" />
+    <state x="442" y="207" key="EditFileWatcherDialog" timestamp="1648117597950">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="442" y="207" key="EditFileWatcherDialog/0.0.1536.816@0.0.1536.816" timestamp="1648117597950" />
+    <state width="259" height="457" key="HiddenNamespacesPopup" timestamp="1648484485664">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="259" height="457" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1648484485664" />
+    <state x="604" y="339" key="NewPhpFileDialog" timestamp="1648497585647">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.816@0.0.1536.816" timestamp="1648497585647" />
+    <state x="279" y="54" key="SettingsEditor" timestamp="1648117582610">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="279" y="54" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1648117582610" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1648507260597">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1648507260597" />
+  </component>
+</project>

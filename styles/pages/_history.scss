@@ -1,0 +1,79 @@
+.history{
+  margin-top: 5rem;
+  background-color: $secondary;
+  padding: 50px;
+
+  .top{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+
+    h1{
+      text-transform: uppercase;
+      color: $white;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-right: 80px;
+    }
+  }
+
+
+
+  .history-list{
+    height: 500px;
+    overflow-y: scroll;
+    margin-right: 4px;
+
+    &::-webkit-scrollbar{
+      width: .9em;
+    }
+    &::-webkit-scrollbar,&::-webkit-scrollbar-thumb{
+      overflow: visible;
+      border-radius: 20px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background: rgba(0,0,0,.2);
+    }
+
+    &__item{
+      font-size: $med;
+      color: black;
+      background: $white;
+      width: 99.5%;
+      padding: 15px 30px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+
+      span{
+        display: inline-block;
+      }
+
+
+    }
+
+
+      &:not(:last-child){
+        margin-bottom: 10px;
+      }
+
+      .actions a{
+        display: inline-block;
+        &:not(:last-child){
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+
+
+  .scroll-wrap{
+    position: relative;
+
+    &:hover .cover-bar{
+      opacity: 0;
+      -webkit-transition: all .5s;
+    }
+  }
+

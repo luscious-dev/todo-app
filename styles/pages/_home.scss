@@ -1,0 +1,133 @@
+.messenger{
+  color: white;
+  font-size: 15px;
+  margin-top: 9px;
+}
+.todo{
+  margin-top: 5rem;
+  background-color: $secondary;
+  padding: 50px;
+
+  .top{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+
+    h1{
+      text-transform: uppercase;
+      color: $white;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-right: 80px;
+    }
+
+    .search-bar{
+      width: 80%;
+      position: relative;
+      //display: flex;
+
+      form{
+        width: 100%;
+      }
+
+      input[type=text]{
+        width: 87%;
+        border: 3px solid black;
+        border-right: none;
+        padding: 5px;
+        padding-left: 20px;
+        height: 40px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: pink;
+
+        &:focus{
+          color: #00b4cc;
+        }
+      }
+
+      input[type=submit]{
+        width: 12%;
+        height: 40px;
+        border: 3px solid black;
+        background: $light-pink;
+        text-align: center;
+        color: $white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        margin-left: -3px;
+      }
+    }
+  }
+
+
+
+  .todo-list{
+    height: 500px;
+    overflow-y: scroll;
+    margin-right: 4px;
+
+    &::-webkit-scrollbar{
+      width: .9em;
+    }
+    &::-webkit-scrollbar,&::-webkit-scrollbar-thumb{
+      overflow: visible;
+      border-radius: 20px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background: rgba(0,0,0,.2);
+    }
+
+    &__task{
+      font-size: $med;
+      color: $white;
+      border: 3px solid white;
+      width: 99.5%;
+      padding: 15px 30px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+
+      &--complete{
+        span{
+          text-decoration: line-through;
+          color: $gray;
+        }
+      }
+
+
+      &:not(:last-child){
+        margin-bottom: 10px;
+      }
+
+      .actions a{
+        display: inline-block;
+        &:not(:last-child){
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .cover-bar{
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 4px;
+    -webkit-transition: all .5s;
+    opacity: 1;
+  }
+
+  .scroll-wrap{
+    position: relative;
+
+    &:hover .cover-bar{
+      opacity: 0;
+      -webkit-transition: all .5s;
+    }
+  }
+}
+
+

@@ -1,0 +1,72 @@
+
+.sign-up {
+  margin: 0 auto;
+  margin-top: 10rem;
+
+  background-color: $secondary;
+  padding: 50px;
+  width: 50%;
+  text-align: center;
+
+  .messenger{
+    color: white;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: left;
+  }
+
+  &__img{
+    margin-bottom: 20px;
+    img{
+      height: 190px;
+    }
+  }
+
+  form {
+    input[type=password],input[type=text], input[type=email] {
+      width: 270px;
+      padding: 5px;
+      padding-left: 20px;
+      height: 40px;
+      outline: none;
+
+      &:focus {
+        color: #00b4cc;
+      }
+    }
+
+    input[type=submit] {
+      width: 30%;
+      height: 40px;
+      background: $light-pink;
+      text-align: center;
+      color: $white;
+      cursor: pointer;
+      margin-left: -3px;
+    }
+    label{
+      display: block;
+      margin-bottom: 15px;
+
+      span{
+        text-align: left;
+        width: 25%;
+        font-size: 18px;
+        color: $white;
+        display: inline-block;
+      }
+    }
+  }
+
+  a{
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+
+    &:hover{
+      color: #00b4cc;
+    }
+  }
+}
+
