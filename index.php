@@ -37,6 +37,14 @@
                 echo $_SESSION['add-task'];
                 unset($_SESSION['add-task']);
             }
+            if (isset($_SESSION['no-complete'])) {
+                echo $_SESSION['no-complete'];
+                unset($_SESSION['no-complete']);
+            }
+            if (isset($_SESSION['update'])) {
+                echo $_SESSION['update'];
+                unset($_SESSION['update']);
+            }
             ?>
         </p>
         <div class="todo">
@@ -91,15 +99,17 @@
                             while ($row = mysqli_fetch_assoc($res)) { # Dynamically produce a list of the todo for the user
                                 $task = $row['todo_task'];
                                 $completed = $row['completed'];
+                                $todo_id = $row['todo_id'];
+                                $todo_task = $row['todo_task'];
                                 ?>
                                 <li class="todo-list__task <?php if ($completed == 'Yes') {
                                     echo 'todo-list__task--complete';
                                 } ?>">
                                     <span><?php echo $task ?></span>
                                     <div class="actions">
-                                        <a href="#"><img src="./img/done_black_24dp.png" alt="done"></a>
-                                        <a href="#"><img src="./img/mode_edit_outline_black_24dp.png" alt="edit"></a>
-                                        <a href="#"><img src="./img/close_black_24dp.png" alt="close"></a>
+                                        <a href="<?php echo SITEURL?>partials/completed.php?user_id=<?php echo $user_id ?>&todo_id=<?php echo $todo_id ?>"><img src="./img/done_black_24dp.png" alt="done"></a>
+                                        <a href="<?php echo SITEURL?>partials/edit.php?user_id=<?php echo $user_id ?>&todo_id=<?php echo $todo_id ?>"><img src="./img/mode_edit_outline_black_24dp.png" alt="edit"></a>
+                                        <a href="<?php echo SITEURL?>partials/remove.php?user_id=<?php echo $user_id ?>&todo_id=<?php echo $todo_id ?>&todo_task=<?php echo $todo_task ?>"><img src="./img/close_black_24dp.png" alt="close"></a>
                                     </div>
                                 </li>
                                 <?php

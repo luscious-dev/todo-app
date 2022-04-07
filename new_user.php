@@ -98,7 +98,7 @@ if (isset($_POST['sign-up'])) {
             $encrypted_password = md5($password);
         } else {
             $_SESSION['password-prob'] = "Your Passwords do not match. Try again";
-            header("location:" . SITEURL . "new-user.php");
+            header("location:" . SITEURL . "new_user.php");
         }
         $sql = "INSERT INTO tbl_users SET 
                     first_name = '$first_name',
@@ -111,7 +111,7 @@ if (isset($_POST['sign-up'])) {
 
         if ($res == true) {
             $sql2 = "SELECT * FROM tbl_users WHERE email='$email'";
-            $res2 = mysqli_query($sql2);
+            $res2 = mysqli_query($conn,$sql2);
             $id = mysqli_fetch_assoc($res2)['id'];
             $_SESSION['user'] = $id;
             $_SESSION['new-user'] = "Account creation successful";
@@ -120,7 +120,7 @@ if (isset($_POST['sign-up'])) {
 
     } else {
         $_SESSION['account-create'] = "Fill in all the fields";
-        header("location:" . SITEURL . "new-user.php");
+        header("location:" . SITEURL . "new_user.php");
     }
 }
 ?>

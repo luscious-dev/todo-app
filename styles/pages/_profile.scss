@@ -13,6 +13,21 @@
       font-size: 3rem;
     }
   }
+  &__image{
+    .img{
+      height: 215px;
+      width: 215px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+      img{
+        width: 100%;
+        height: 100%;
+
+      }
+    }
+
+  }
   &__image,&__greeting{
     text-align: center;
   }
@@ -20,7 +35,8 @@
     color: $white;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 

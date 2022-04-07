@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7944f4e5-a4ee-454c-b75a-1d67cb77b26d" name="Default Changelist" comment="" />
+    <list default="true" id="7944f4e5-a4ee-454c-b75a-1d67cb77b26d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69b264a3-b93a-4875-b3ee-5931c49865cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69b264a3-b93a-4875-b3ee-5931c49865cc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/login-check.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/login-check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_history.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_history.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_home.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_profile.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/2da1f982ff869c4ac0f824fd5255519993bab5fc/_profile.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/7e37fa4cb69b2318a1af16858506b39b95b94f0b/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/7e37fa4cb69b2318a1af16858506b39b95b94f0b/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/_history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_history.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_profile.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +34,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP from XAMPP" />
   <component name="ProjectId" id="26pPHf4xB9c1e1CB2J6D2ZHKZ1a" />
@@ -34,11 +55,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell 5480\PhpstormProjects\todo_list\styles\utility" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell 5480\PhpstormProjects\todo_list\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell 5480\PhpstormProjects\todo_list\styles\utility" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +75,12 @@
       <workItem from="1648320339399" duration="636000" />
       <workItem from="1648323560581" duration="13438000" />
       <workItem from="1648412090548" duration="59000" />
-      <workItem from="1648474545315" duration="27793000" />
+      <workItem from="1648474545315" duration="29138000" />
+      <workItem from="1648676172534" duration="2527000" />
+      <workItem from="1648678886421" duration="2350000" />
+      <workItem from="1648835004202" duration="8566000" />
+      <workItem from="1649113139140" duration="193000" />
+      <workItem from="1649343524399" duration="8397000" />
     </task>
     <servers />
   </component>
@@ -78,10 +104,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="259" height="457" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1648484485664" />
-    <state x="604" y="339" key="NewPhpFileDialog" timestamp="1648497585647">
+    <state x="604" y="339" key="NewPhpFileDialog" timestamp="1649345908681">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.816@0.0.1536.816" timestamp="1648497585647" />
+    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.816@0.0.1536.816" timestamp="1649345908681" />
     <state x="279" y="54" key="SettingsEditor" timestamp="1648117582610">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

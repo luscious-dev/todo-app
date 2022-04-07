@@ -87,6 +87,11 @@
       align-items: center;
       display: flex;
       justify-content: space-between;
+      transition: all 300ms ease-in-out;
+
+      &:hover{
+        background-color: gray;
+      }
 
       &--complete{
         span{
